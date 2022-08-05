@@ -15,6 +15,13 @@
 - logout and login
 - install ohmyzsh and apply agnoster theme (by changing `~/.zshrc`)
 - install jetbrains mono and change font for the terminal
+
+### Customizations (optional) 
+- install gnome tweak tool
+- install papirus icon pack
+- install "hide top bar" extension
+- enable hot corner for workspaces and `hide top bar` extension
+
 ### Firefox
 - login firefox
 - login gmail, github, ldap
