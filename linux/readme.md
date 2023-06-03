@@ -31,10 +31,10 @@ ___
 ### Basics
 - update packages and os
 - change dock and touchpad settings (turn on natural scrolling for touchpad)
-- resolve time issue in dual boot `timedatectl set-local-rtc 1`
-- install `python` and/or `python-is-python3` and pip `apt install python3-pip`
+- resolve timezone issue in dual boot, run this in linux`timedatectl set-local-rtc 1`
+- install `python3` and/or `python-is-python3` and pip `apt install python3-pip`
 
-### Terminal
+### Terminal (optional)
 - install zsh and make it the default shell
 - logout and login
 - install ohmyzsh and apply agnoster theme (by changing `~/.zshrc`)
