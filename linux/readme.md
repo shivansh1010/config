@@ -1,6 +1,7 @@
 # Fresh Dual Boot (Take backup)
-### Prepare for larger efi partition
-- create a bootable usb with ubuntu and windows both
+- create a bootable usb with ubuntu and windows both (ventoy recommended)
+
+### Prepare for larger efi partition (optional)
 - boot to ubuntu
 - open `disks` in ubuntu and remove all partitions
 - create a data partition of `968884224 Bytes` (924 MB)
@@ -12,7 +13,7 @@
 - give C: drive a size of `256649 MB` (~250GB)
 - continue with setup
 
-### enlarge efi
+### enlarge efi (optional)
 - after windwos installation, download [partition wizard free](https://www.partitionwizard.com/)
 - delete the partition initially created that had size of 924MB
 - resize efi partition to takeup all the space, around 1024MB
@@ -20,10 +21,9 @@
 
 ### install linux
 - change boot priority to bootable USB
-- boot to ubuntu live usb and verify correct setup of partitions
+- boot to ubuntu live usb and modify partitions as needed
 - install ubuntu with 12GB swap and 150GB root
 - continue with setup
-- verify that no new efi partition should be created
 - change grub settings as you like
 
 ___
@@ -41,7 +41,7 @@ ___
 - install powerline fonts for shell
 - install jetbrains mono and change font for the terminal
 
-### Customizations 
+### Customizations (optional)
 - install gnome tweak tool
 - install papirus icon pack
 - install "hide top bar" extension
