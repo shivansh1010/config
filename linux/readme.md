@@ -26,4 +26,23 @@
 - verify that no new efi partition should be created
 - change grub settings as you like
 
-### enjoy
+___
+
+### Basics
+- update packages and os
+- change dock and touchpad settings (turn on natural scrolling for touchpad)
+- resolve time issue in dual boot `timedatectl set-local-rtc 1`
+- install `python` and/or `python-is-python3` and pip `apt install python3-pip`
+
+### Terminal
+- install zsh and make it the default shell
+- logout and login
+- install ohmyzsh and apply agnoster theme (by changing `~/.zshrc`)
+- install powerline fonts for shell
+- install jetbrains mono and change font for the terminal
+
+### Customizations 
+- install gnome tweak tool
+- install papirus icon pack
+- install "hide top bar" extension
+- enable hot corner for workspaces and `hide top bar` extension
