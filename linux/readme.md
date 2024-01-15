@@ -38,6 +38,7 @@ ___
 - install zsh and make it the default shell
 - logout and login
 - install ohmyzsh and apply agnoster theme (by changing `~/.zshrc`)
+- install `zsh-autosuggestions` and `zsh-syntax-highlighting`
 - install powerline fonts for shell
 - install jetbrains mono and change font for the terminal
 
